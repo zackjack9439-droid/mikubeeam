@@ -15,4 +15,5 @@ async def on_ready():
 async def mikubeam(ctx):
     await ctx.send("MIKU MIKU BEAAAM!")
 
-bot.run("MTUzMzU0Njc4NzQ0NzY0MDI0Nw.Gg2iD1.BsQ3Nu6obYi2W7xw69EVXo76G57Flt5BQ0sc4U")
+token = os.environ.get("DISCORD_TOKEN")
+bot.run(token)
