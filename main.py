@@ -14,4 +14,4 @@ async def on_ready():
 async def mikubeam(ctx):
     await ctx.send("MIKU MIKU BEAAAM!")
 
-bot.run("SEU_TOKEN_AQUI")
+bot.run("MTUzMzU0Njc4NzQ0NzY0MDI0Nw.GbVktY.9WPRCuntpBnieGA0F-apjFiz-Z5TrmoVZcraD8")
